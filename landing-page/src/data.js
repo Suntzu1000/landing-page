@@ -41,7 +41,17 @@ export const heroData = {
 
 export const aboutData = {
   image: AboutImg,
-  title: "Descubra um pouco sobre nós",
+  title: "Descubra um pouco sobre nós.",
   subtitle:
-    "Nós somos uma empresa dedicada á distribuição de produtos em entrega para a sua casa ou lugar onde estiver",
+    "Nós somos uma empresa dedicada á distribuição de produtos em entrega para a sua casa ou lugar onde estiver.",
 };
+
+export const featureData = {
+  title: "Alguns Serviços que nós oferecemos. ",
+  subtitle: "Com nosso App você pode ver a rota do seu pedido do local de origem até onde você está.  Experimente o App agora!",
+  list: [
+    {
+      image:
+    }
+  ],
+}
