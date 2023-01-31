@@ -14,8 +14,14 @@ import CtaSection from './components/CtaSection'
 import Footer from './components/Footer'
 
 const App = () => {
+
+  Aos.init({
+    duration: 1800,
+    offset: 0,
+  })
+
   return <div className='overflow-hidden'>
-    <h1>Let´s Code</h1>
+    <Hero/>
   </div>
 }
 

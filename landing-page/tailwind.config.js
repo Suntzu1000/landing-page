@@ -9,7 +9,7 @@ module.exports = {
     container: {
       padding: {
         DEFAULT: "1rem",
-        lg: "0"
+        lg: "0",
       },
     },
     screens: {
@@ -20,17 +20,17 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#14532d',
-        secondary: '#bbf7d0',
+        primary: "#14532d",
+        secondary: "#166534",
         accent: {
-          primary: '#3f6212',
-          primary_hover: '#365314',
-          secondary: '#4ade80',
-          secondary_hover: '#22c55e',
-          tertiary: '#68C9BA',
+          primary: "#3f6212",
+          primary_hover: "#365314",
+          secondary: "#4ade80",
+          secondary_hover: "#22c55e",
+          tertiary: "#bef264",
         },
       },
     },
   },
   plugins: [],
-}
+};
