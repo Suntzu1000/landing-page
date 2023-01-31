@@ -10,6 +10,27 @@ import Feature4bg from "./assets/feature4_bg.png";
 import Logo from "./assets/logo.png";
 import Hero from "./assets/hero-img.png";
 
+
+export const navigationData = [
+  {
+    name: 'Entega',
+    href: '#',
+  },
+  {
+    name: 'Sobre nós',
+    href: '#',
+  },
+  {
+    name: 'Recursos',
+    href: '#',
+  },
+  {
+    name: 'Inscrever-se',
+    href: '#',
+  },
+
+]
+
 export const heroData = {
   title: "Encomendar produtos mais rápido e mais fácil!",
   subtitle:
