@@ -14,7 +14,7 @@ import { BsChatDotsFill } from "react-icons/bs";
 
 export const navigationData = [
   {
-    name: "Entega",
+    name: "Entrega",
     href: "#",
   },
   {
@@ -149,7 +149,7 @@ export const footerData = {
   ],
 };
 
-export const copyrightData = {
+export const copyData = {
   text: '© Product Go, 2022. All rights reserved. Gabriel Andrade Dos Santos',
   icon: <BsChatDotsFill />,
 };
