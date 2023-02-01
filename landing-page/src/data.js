@@ -10,26 +10,24 @@ import Feature4bg from "./assets/feature4_bg.png";
 import Logo from "./assets/logo.png";
 import Hero from "./assets/hero-img.png";
 
-
 export const navigationData = [
   {
-    name: 'Entega',
-    href: '#',
+    name: "Entega",
+    href: "#",
   },
   {
-    name: 'Sobre nós',
-    href: '#',
+    name: "Sobre nós",
+    href: "#",
   },
   {
-    name: 'Recursos',
-    href: '#',
+    name: "Recursos",
+    href: "#",
   },
   {
-    name: 'Inscrever-se',
-    href: '#',
+    name: "Inscrever-se",
+    href: "#",
   },
-
-]
+];
 
 export const heroData = {
   title: "Encomendar produtos mais rápido e mais fácil!",
@@ -46,12 +44,44 @@ export const aboutData = {
     "Nós somos uma empresa dedicada á distribuição de produtos em entrega para a sua casa ou lugar onde estiver.",
 };
 
-export const featureData = {
+export const featuresData = {
   title: "Alguns Serviços que nós oferecemos. ",
-  subtitle: "Com nosso App você pode ver a rota do seu pedido do local de origem até onde você está.  Experimente o App agora!",
+  subtitle:
+    "Com nosso App você pode ver a rota do seu pedido do local de origem até onde você está.  Experimente o App agora!",
   list: [
     {
-      image:
-    }
+      image: Feature1Img,
+      bgImage: Feature1bg,
+      title: "Pagamento Feito",
+      description: "Pagamento com cartão Visa ou Paypal.",
+      linkText: "Aprenda mais",
+      delay: "400",
+    },
+    {
+      image: Feature2Img,
+      bgImage: Feature2bg,
+      title: "Encontre seu Produto",
+      description: "Nós oferecemos vendas de produtos através da Internet.",
+      linkText: "Aprenda mais",
+      delay: "700",
+    },
+    {
+      image: Feature3Img,
+      bgImage: Feature3bg,
+      title: "Impressão",
+      description:
+        "Serviço de impressão oferece conveniência se algum dia precisar da impressão de dados de alguma compra feita.",
+      linkText: "Aprenda mais",
+      delay: "1000",
+    },
+    {
+      image: Feature4Img,
+      bgImage: Feature4bg,
+      title: "Produto recebido",
+      description:
+        "Em nosso App você pode ver o motivo do atraso do seu pedido.",
+      linkText: "Aprenda mais",
+      delay: "1300",
+    },
   ],
-}
+};
