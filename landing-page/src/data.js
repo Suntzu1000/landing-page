@@ -7,8 +7,10 @@ import Feature3Img from "./assets/feature3.png";
 import Feature3bg from "./assets/feature3_bg.png";
 import Feature4Img from "./assets/feature4.png";
 import Feature4bg from "./assets/feature4_bg.png";
-import Logo from "./assets/logo.png";
+import Logo from "./assets/favicon_.png";
 import Hero from "./assets/hero-img.png";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { BsChatDotsFill } from "react-icons/bs";
 
 export const navigationData = [
   {
@@ -84,4 +86,70 @@ export const featuresData = {
       delay: "1300",
     },
   ],
+};
+
+export const ctaData = {
+  title: "Entre em contato conosco",
+  subtitle: "Ganhe 1 semana grátis limitada, experimente nossos recursos.",
+  btnText1: "Mais",
+  btnText2: "Acessar",
+
+};
+
+export const footerData = {
+  logo: Logo,
+  address: 'Product Texas, 234 Bokki Avenue Street BMW 99388',
+  email: 'gabrielfootze@gmail.com',
+  phone: '(62) 9953-96918 (Main)',
+  list1: [
+    {
+      name: 'Perfil',
+      href: 'https://meu-portfolio-livid.vercel.app/',
+    },
+    {
+      name: 'Recursos',
+      href: '#',
+    },
+    {
+      name: 'Projetos',
+      href: 'https://meu-portfolio-livid.vercel.app/project',
+    },
+  ],
+  list2: [
+    {
+      name: 'Suporte',
+      href: '#',
+    },
+    {
+      name: 'Contato',
+      href: 'https://meu-portfolio-livid.vercel.app/contact',
+    },
+    {
+      name: 'Guia',
+      href: '#',
+    },
+    {
+      name: 'Reports',
+      href: '#',
+    },
+    {
+      name: 'Q & A',
+      href: '#',
+    },
+  ],
+  socialList: [
+    {
+      icon: <FaLinkedinIn />,
+      href: 'https://www.linkedin.com/in/gabriel-andrade-52a803205/',
+    },
+    {
+      icon: <FaGithub />,
+      href: 'https://github.com/Suntzu1000',
+    },
+  ],
+};
+
+export const copyrightData = {
+  text: '© Product Go, 2022. All rights reserved. Gabriel Andrade Dos Santos',
+  icon: <BsChatDotsFill />,
 };

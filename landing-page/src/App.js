@@ -24,6 +24,8 @@ const App = () => {
     <Hero/>
     <About/>
     <Features/>
+    <CtaSection/>
+    <Footer/>
   </div>
 }
 
